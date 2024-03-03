@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* Body and Background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Headings */
+h2 {
+    color: #654321; /* Brown color */
+}
+
+/* Links */
+a {
+    color: #654321; /* Brown color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #654321; /* Brown color */
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* Form Styles */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #654321; /* Brown color */
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #654321; /* Brown color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #543d2e; /* Darker brown color */
+}
+
+
